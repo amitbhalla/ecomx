@@ -15,12 +15,6 @@ class TestCategoriesModel(TestCase):
         """
         data = self.data1
         self.assertTrue(isinstance(data, Category))
-
-    def test_category_model_return(self):
-        """
-        Test Category model return
-        """
-        data = self.data1
         self.assertEqual(str(data), "Django")
 
 
